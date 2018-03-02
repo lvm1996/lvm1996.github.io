@@ -1,42 +1,43 @@
 {
-  "name": "Essex",
-  "version": "1.0.0",
-  "description": "A flexible and multi-purpose business theme. Based on the Shoreditch theme by Automattic.",
-  "main": "Gulpfile.js",
-  "dependencies": {
-    "autoprefixer": "^6.3.1",
-    "browser-sync": "^2.11.1",
-    "css-mqpacker": "^4.0.0",
-    "del": "^2.2.0",
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-cssnano": "^2.1.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-postcss": "^6.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.2.0",
-    "gulp-sort": "^1.1.1",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglify": "^1.5.2",
-    "gulp-util": "^3.0.7",
-    "gulp-wp-pot": "^1.1.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"No test specified\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kellenmace/essex"
-  },
-  "keywords": [
-    "theme"
-  ],
-  "author": "Kellen Mace",
-  "license": "GPL-2.0",
-  "bugs": {
-    "url": "https://github.com/kellenmace/essex"
-  },
-  "homepage": "https://github.com/kellenmace/essex"
+    "title": "Resume",
+    "name": "startbootstrap-resume",
+    "version": "4.0.0",
+    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://startbootstrap.com/template-overviews/resume",
+    "bugs": {
+        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
+        "email": "feedback@startbootstrap.com"
+    },
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+        "David Miller (http://davidmiller.io/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+    },
+    "dependencies": {
+        "bootstrap": "4.0.0",
+        "devicons": "^1.8.0",
+        "jquery": "3.3.1",
+        "simple-line-icons": "^2.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.23.6",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.2",
+        "gulp-header": "2.0.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-uglify": "3.0.0"
+    }
 }
